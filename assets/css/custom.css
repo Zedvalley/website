@@ -1,0 +1,107 @@
+/* Add here all your css styles (customizations) */
+.fd-banner
+{
+    background-image: url("../img/bg-forest.jpg");
+	background-size:contain;
+	
+}
+.rectangle-box
+{
+border:0.5px solid #ccc;
+padding:3% 4% 3% 4%;
+}
+.slider-font
+{
+color:white;
+font-size:40px;
+ font-family: 'Open Sans', sans-serif;
+}
+.slider-font span
+{
+color:#2ecc71;
+}
+.content-slider
+{
+color:white;
+text-align:justify;
+font-size:12px;
+font-weight:100;
+}
+#fex {
+    width: 350px;
+    height: 294px;
+
+}
+.anim-conatiner
+{
+    min-height:800px;
+    padding-top: 10%;
+    /*border-bottom:1px solid #ccc;
+    background-image: url("../images/objects/slide1a.png");*/
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+    background: #606c88; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #606c88 0%, #3f4c6b 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#606c88), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #606c88 0%,#3f4c6b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#typed
+{
+    font-size:50px;
+    color: white;
+}
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    color: white;
+    font-size:50px;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+#lift
+{
+    margin-left: 15%;
+    margin-top: 19%;
+    animation-name: lift;
+    -webkit-animation-name:lift; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-iteration-count:1;
+    -moz-animation-name:lift;
+    -moz-animation-duration:4s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+
+}
+
+@keyframes lift
+{
+    0%{margin-left:0px;}
+    25%{margin-left:120px;}
+    50%{ margin-left:60px;}
+    100%{ margin-left:120px;}
+
+}
+@-moz-keyframes lift{
+
+    0%{margin-left:0px;}
+    25%{margin-left:120px;}
+    50%{ margin-left:60px;}
+    100%{ margin-left:120px;}
+
+}
+
+
